@@ -1,11 +1,13 @@
 <template>
   <q-layout view="hhh Lpr fff">
-    <q-header class="bg-green-1 fixed-top" elevated>
+    <q-header class="bg-green-2 fixed-top" elevated>
       <div class="q-pa-md">
         <q-toolbar>
           <q-btn flat to="/home">
             <span class="text-dark">Stock</span>
-            <span class="text-weight-light text-green-7">Trader</span>
+            <span class="text-weight-light text-green-7 text-weight-bold"
+              >Trader</span
+            >
           </q-btn>
 
           <div class="row q-ml-sm">
