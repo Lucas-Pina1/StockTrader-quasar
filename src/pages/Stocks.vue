@@ -1,6 +1,6 @@
 <template>
   <q-page>
-    <q-layout class="row">
+    <q-layout class="row justify-center">
       <Stock v-for="stock in stocks" :key="stock.id"></Stock>
     </q-layout>
   </q-page>
